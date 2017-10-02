@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Class-Path: commons-io-2.5.jar websocket-client-9.4.3.v20170317.jar co
+ mmons-logging-1.2.jar jackson-databind-2.8.7.jar junit-3.8.2.jar kolo
+ boke-api-jdk8-1.0.0.jar websocket-common-9.4.3.v20170317.jar jna-4.3.
+ 0.jar jorbis-0.0.17.jar jflac-1.3.jar tritonus-dsp-0.3.6.jar jetty-cl
+ ient-9.4.3.v20170317.jar jackson-module-afterburner-2.8.7.jar jetty-u
+ til-9.4.3.v20170317.jar mp3spi-1.9.5-2.jar jackson-core-2.8.7.jar slf
+ 4j-api-1.7.24.jar tritonus-share-0.3.7-3.jar jlayer-1.0.1-2.jar jetty
+ -http-9.4.3.v20170317.jar emoji-java-3.2.0.jar httpclient-4.5.3.jar w
+ ebsocket-api-9.4.3.v20170317.jar commons-lang3-3.5.jar koloboke-impl-
+ common-jdk8-1.0.0.jar httpmime-4.5.3.jar jackson-annotations-2.8.0.ja
+ r commons-codec-1.9.jar typetools-0.4.8.jar Discord4J-2.8.4-shaded.ja
+ r httpcore-4.4.6.jar json-20140107.jar jetty-io-9.4.3.v20170317.jar
+Main-Class: Proper.Main
+
