@@ -5,6 +5,7 @@ Feel free to clone and upgrade it.
 
 Soon update : 
  Music Player
+ Roll command improvement
  Some other vocal channel command
  Secret (private messages games, just to never get bored)
 
