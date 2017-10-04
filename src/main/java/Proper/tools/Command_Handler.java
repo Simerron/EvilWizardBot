@@ -2,9 +2,22 @@ package Proper.tools;
 
 import Proper.Command;
 import Proper.commands.*;
+import Proper.commands.PlayerCommands.*;
+import Proper.tools.lavaplayer.GuildMusicManager;
+import com.sedmelluq.discord.lavaplayer.player.AudioLoadResultHandler;
+import com.sedmelluq.discord.lavaplayer.player.AudioPlayerManager;
+import com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager;
+import com.sedmelluq.discord.lavaplayer.source.AudioSourceManager;
+import com.sedmelluq.discord.lavaplayer.source.AudioSourceManagers;
+import com.sedmelluq.discord.lavaplayer.tools.FriendlyException;
+import com.sedmelluq.discord.lavaplayer.track.AudioPlaylist;
+import com.sedmelluq.discord.lavaplayer.track.AudioTrack;
 import sx.blah.discord.handle.impl.events.guild.channel.message.MessageReceivedEvent;
+import sx.blah.discord.handle.obj.IChannel;
+import sx.blah.discord.handle.obj.IGuild;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by Simerron on 06/07/2017.
@@ -20,8 +33,10 @@ public class Command_Handler {
         cmd.put("help", new HelpCommand());
         cmd.put("say", new SayCommand());
         cmd.put("join", new JoinCommand());
-        cmd.put("musicadd", new PlayerAddCommand());
-        cmd.put("play", new PlayCommand());
+        cmd.put("leave", new LeaveCommand());
+        cmd.put("play", new PlaySongCommand());
+        cmd.put("skip", new SkipSongCommand());
+        cmd.put("volume", new VolumeCommand());
     }
 
     public void handle (MessageReceivedEvent event, String[] args, String invoke){
@@ -39,4 +54,5 @@ public class Command_Handler {
             //System.out.println("Command Handled");
         }
     }
+
 }
